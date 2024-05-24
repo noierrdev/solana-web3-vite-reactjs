@@ -1,7 +1,11 @@
+import { Typography } from "@mui/material";
+
 export default function(props){
     return (
         <>
-        <h1>Hello</h1>
+        <Typography variant="h4" component={'h4'} >
+            This is the test project!
+        </Typography>
         </>
     )
 }
